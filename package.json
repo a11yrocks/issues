@@ -4,7 +4,8 @@
   "description": "a11y.rocks reports",
   "main": "index.js",
   "scripts": {
-    "css": "postcss assets/css/*.css -d dist/css/main.css"
+    "start": "bundle exec jekyll serve",
+    "css": "postcss assets/css/*.css -w true -d dist/css/"
   },
   "author": "",
   "license": "MIT",
