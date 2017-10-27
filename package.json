@@ -1,0 +1,23 @@
+{
+  "name": "a11y.rocks",
+  "version": "1.0.0",
+  "description": "a11y.rocks reports",
+  "main": "index.js",
+  "scripts": {
+    "css": "postcss assets/css/*.css -o dist/css/main.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "css-mqpacker": "^6.0.1",
+    "cssnano": "^3.10.0",
+    "postcss": "^6.0.13",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-scss": "^1.0.2"
+  },
+  "devDependencies": {
+    "postcss-cli": "^4.1.1"
+  }
+}
