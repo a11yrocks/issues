@@ -1,0 +1,8 @@
+:root {
+  --color-yellow: #FED835;
+  --font-sans: BlinkMacSystemFont, -apple-system, Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@custom-media --small (width < 620px);
+@custom-media --medium-up (width >= 620px);
+@custom-media --large-up (width >= 830px);

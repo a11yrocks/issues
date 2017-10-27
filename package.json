@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve",
-    "css": "postcss assets/css/*.css -w true -d dist/css/"
+    "css": "postcss assets/css/*.css -w true -d _includes/css/"
   },
   "author": "",
   "license": "MIT",
