@@ -4,7 +4,7 @@
   "description": "a11y.rocks reports",
   "main": "index.js",
   "scripts": {
-    "css": "postcss assets/css/*.css -o dist/css/main.css"
+    "css": "postcss assets/css/*.css -w true -o dist/css/main.css"
   },
   "author": "",
   "license": "MIT",
