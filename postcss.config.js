@@ -13,6 +13,5 @@ module.exports = {
     nested,
     cssnano({ autoprefixer: false })
   ],
-  syntax: scss,
-  output: 'build/css/main.css'
+  syntax: scss
 }
