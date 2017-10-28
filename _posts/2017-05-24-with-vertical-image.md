@@ -1,7 +1,6 @@
 ---
 layout: post
 sitename: "Facebook"
-date: 2016-05-24 19:51:10 -0300
 tag: "Non-perceivable"
 media: https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B5ZSepuCX1xOWWhkMl9EY3dTR28/components-text-fields.png
 ---

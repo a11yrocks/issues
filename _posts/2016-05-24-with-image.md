@@ -1,7 +1,6 @@
 ---
 layout: post
 sitename: "Netflix"
-date: 2016-05-24 19:51:10 -0300
 tag: "Non-perceivable"
 media: https://cdn.dribbble.com/users/61576/screenshots/3242739/attachments/695217/vpn-dashboard-design-caldhela-bigger-version.png
 ---
