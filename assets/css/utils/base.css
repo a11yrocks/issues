@@ -3,3 +3,8 @@ body {
   line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
+
+.content {
+  margin-top: -60px;
+  padding: 5px 20px;
+}
