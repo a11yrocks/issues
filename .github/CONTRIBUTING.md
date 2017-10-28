@@ -1,13 +1,10 @@
-Thanks for your help!
+# Contributing with reports
 
-### Reporting an A11Y issue
+To report an accessibility issue, create a Markdown file under the [`_posts`](_posts)  directory with the following template.
 
-If you spot any A11Y issue in any website, please create a PR, the steps to do so is the following:
+Filename: YYYY-MM-DD-your-report-title.md
 
-* Fork this repo
-* Create a new branch
-* Under _posts directory, create a new file following the pattern (year-month-day-some-title)
-* Please, use the template bellow to create your report
+Content:
 
 ```markdown
 ---
@@ -17,7 +14,12 @@ tag: "Non-perceivable"
 media: my-image-for-the-issue
 ---
 
-Here you can describe the issue, the steps to reproduce, more images, gifs or videos, etc...
+Here you can add any Markdown-valid content describing the accessibility issue and the steps to reproduce it. Screenshots or videos, and technical details about the device are appreciated.
 
 ```
-* Create your Pull Request
+> :warning: Your tag must be one of the following: `"Non-perceivable"`, `"Non-operable"`, `"Non-understandable"`. To know which one to use, refer to the [POUR principles](https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head).
+
+
+This will create a pull request, which will be merged after approval. Then, your issue will be available on the website.
+
+Thank you!
