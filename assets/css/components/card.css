@@ -3,7 +3,19 @@
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
   margin-bottom: 30px;
+  position: relative;
   transition: all 250ms ease-out;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 200px;
+    box-shadow: inset 0 65px 40px -15px rgba(0, 0, 0, 0.45);
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
 
   &:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
@@ -26,16 +38,15 @@
 
 .card-media {
   width: 100%;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+  display: block;
 }
 
 .card-content {
   padding: 20px 30px;
   color: #555;
-}
-
-.card-header {
-  overflow: auto;
-  margin-bottom: 20px;
 }
 
 .card-title {
@@ -45,9 +56,14 @@
   float: left;
   color: #000;
   border-bottom: 3px solid #ffd736;
+  margin-bottom: 10px;
 }
 
 .card-tag {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
   border-radius: 5px;
   background-color: tomato;
   color: #fff;
@@ -62,6 +78,7 @@
 
 .card-description {
   margin-top: 10px;
+  clear: both;
 }
 
 .read-more-button {

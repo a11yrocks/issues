@@ -1,10 +1,8 @@
 <article class="card">
-    <img class="card-media" src="{{ post.media }}">
+    <img class="card-media" src="{{ post.media }}" />
+    <span class="card-tag">{{ post.tag }}</span>
     <div class="card-content">
-        <header class="card-header">
-            <h1 class="card-title">{{ post.sitename }}</h1>
-            <span class="card-tag">{{ post.tag }}</span>
-        </header>
+        <h1 class="card-title">{{ post.sitename }}</h1>
 
         <div class="card-description">
             {{ post.content | strip_html | truncate: 100 }}
