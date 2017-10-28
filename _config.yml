@@ -9,7 +9,7 @@ url: ""
 markdown: kramdown
 plugins:
   - jekyll-feed
-permalink: pretty
+permalink: /:year/:title
 compress_html:
   clippings: all
 exclude:
