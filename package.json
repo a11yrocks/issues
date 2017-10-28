@@ -1,24 +1,19 @@
 {
-  "name": "a11y.rocks",
+  "name": "a11y-issues",
   "version": "1.0.0",
-  "description": "a11y.rocks reports",
-  "main": "index.js",
   "scripts": {
     "start": "npm run css && npm-run-all -p css-watch jekyll",
     "css": "postcss assets/css/main.css -o _includes/public.css",
     "css-watch": "npm run css -w true",
     "jekyll": "bundle exec jekyll serve"
   },
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "css-mqpacker": "^6.0.1",
     "cssnano": "^3.10.0",
     "postcss": "^6.0.13",
     "postcss-cssnext": "^3.0.2",
-    "postcss-import": "^11.0.0",
-    "postcss-nested": "^2.1.2",
-    "postcss-scss": "^1.0.2"
+    "postcss-import": "^11.0.0"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.1",
