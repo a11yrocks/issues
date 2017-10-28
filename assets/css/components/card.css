@@ -5,6 +5,11 @@
   margin-bottom: 30px;
   transition: all 250ms ease-out;
 
+  &:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+
   @media (min-width: 640px) {
     flex-basis: calc(50% - 20px);
     margin: 10px;
