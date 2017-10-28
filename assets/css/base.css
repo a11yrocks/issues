@@ -5,8 +5,11 @@ body {
   background: #f9f9f9;
 }
 
+.main-content {
+  margin-top: -70px;
+}
+
 .cards {
-  margin-top: -60px;
   padding: 5px 20px;
 
   @media (min-width: 640px) {
