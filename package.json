@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all -p css jekyll",
-    "css": "postcss assets/css/*.css -w true -d _includes/css/",
+    "css": "postcss assets/css/main.css -w true -d _includes/css/",
     "jekyll": "bundle exec jekyll serve"
   },
   "author": "",
