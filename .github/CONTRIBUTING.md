@@ -9,6 +9,8 @@ Content:
 ```markdown
 ---
 layout: post
+title:
+date: 2016-05-24 19:51:10
 sitename: 'Website where you found the issue'
 tag: "Non-perceivable"
 media: my-image-for-the-issue

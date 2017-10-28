@@ -1,5 +1,7 @@
 ---
 layout: post
+title:
+date: 2017-05-24 19:51:10 -0300
 sitename: "Facebook"
 tag: "Non-operable"
 media: https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B5ZSepuCX1xOWWhkMl9EY3dTR28/components-text-fields.png
