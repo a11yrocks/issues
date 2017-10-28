@@ -1,5 +1,5 @@
 {
-  "name": "A a11y.rocks Project",
+  "name": "a11y-issues",
   "version": "1.0.0",
   "scripts": {
     "start": "npm-run-all -p css jekyll",
