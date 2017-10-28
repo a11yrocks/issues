@@ -1,13 +1,14 @@
 <article class="card">
-    <img class="img" src="https://cdn.dribbble.com/users/61576/screenshots/3242739/attachments/695217/vpn-dashboard-design-caldhela-bigger-version.png">
+    <img class="card-media" src="{{ post.media }}">
     <div class="card-content">
         <header class="card-header">
-        <h1 class="card-title">Netflix</h1>
-        <span class="card-tag">Non-perceivable</span>
+            <h1 class="card-title">{{ post.sitename }}</h1>
+            <span class="card-tag">{{ post.tag }}</span>
         </header>
+
         <div class="card-description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, in?</p>
+            {{ post.content | strip_html | truncate: 100 }}
         </div>
     </div>
-    <a class="read-more-button" href="#">Read more</a>
+    <a href={{post.url}} class="read-more-button" href="#">Read more</a>
 </article>

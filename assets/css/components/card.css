@@ -24,6 +24,10 @@
   }
 }
 
+.card-media {
+  width: 100%;
+}
+
 .card-content {
   padding: 20px 30px;
   color: #555;
@@ -35,7 +39,8 @@
 }
 
 .card-title {
-  font-size: 22px;
+  font-size: 14px;
+  font-weight: bold;
   margin: 0;
   float: left;
   color: #000;

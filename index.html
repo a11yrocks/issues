@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="cards">
-  {% include card.html %}
-  {% include card.html %}
-  {% include card.html %}
+  {% for post in site.posts %}
+    {% include card.html post=post %}
+  {% endfor %}
 </div>
