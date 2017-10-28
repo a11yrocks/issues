@@ -32,14 +32,14 @@
 .card-header {
   overflow: auto;
   margin-bottom: 20px;
+}
 
-  h1 {
-    font-size: 22px;
-    margin: 0;
-    float: left;
-    color: #000;
-    border-bottom: 3px solid #ffd736;
-  }
+.card-title {
+  font-size: 22px;
+  margin: 0;
+  float: left;
+  color: #000;
+  border-bottom: 3px solid #ffd736;
 }
 
 .card-tag {

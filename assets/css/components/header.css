@@ -11,7 +11,7 @@
   font-weight: 600;
   letter-spacing: -3px;
 
-  span {
+  & span {
     font-weight: 800;
   }
 }
