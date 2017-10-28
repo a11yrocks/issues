@@ -1,6 +1,5 @@
 @import "utils/reset";
 @import "utils/config";
-@import "utils/base";
-
+@import "base";
 @import "components/header";
 @import "components/card";

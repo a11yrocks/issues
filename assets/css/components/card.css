@@ -4,6 +4,19 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
   margin-bottom: 30px;
   transition: all 250ms ease-out;
+
+  @media (min-width: 640px) {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  @media (min-width: 850px) {
+    flex-basis: calc(33.3% - 20px);
+  }
+
+  @media (min-width: 1200px) {
+    flex-basis: calc(25% - 20px);
+  }
 }
 
 .card-content {
