@@ -8,5 +8,10 @@
             {{ post.content | strip_html | truncate: 100 }}
         </div>
     </div>
-    <a href={{post.url}} class="read-more-button" href="#">Read more</a>
+    <a
+      class="read-more-button" 
+      href="{{ post.url | prepend: site.baseurl }}"
+    >
+      Read more
+    </a>
 </article>
