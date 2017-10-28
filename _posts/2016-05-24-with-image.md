@@ -2,7 +2,7 @@
 layout: post
 sitename: "Netflix"
 date: 2016-05-24 19:51:10 -0300
-tag: "Non-perceivable"
+tag: "Non-robust"
 media: https://cdn.dribbble.com/users/61576/screenshots/3242739/attachments/695217/vpn-dashboard-design-caldhela-bigger-version.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

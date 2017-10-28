@@ -2,7 +2,7 @@
 layout: post
 sitename: "Facebook"
 date: 2016-05-24 19:51:10 -0300
-tag: "Non-perceivable"
+tag: "Non-operable"
 media: https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B5ZSepuCX1xOWWhkMl9EY3dTR28/components-text-fields.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
