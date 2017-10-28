@@ -1,0 +1,35 @@
+.post {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  padding: 70px;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+
+.post p {
+    margin-bottom: 25px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.post-tag {
+    margin-left: 20px;
+}
+
+.post-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 3px solid #ffd736;
+}

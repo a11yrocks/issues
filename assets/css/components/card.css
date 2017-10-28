@@ -59,11 +59,7 @@
   margin-bottom: 10px;
 }
 
-.card-tag {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  z-index: 2;
+.tag {
   border-radius: 5px;
   background-color: tomato;
   color: #fff;
@@ -72,8 +68,15 @@
   font-weight: bold;
   letter-spacing: -0.1px;
   display: inline-block;
-  float: right;
   text-transform: uppercase;
+}
+
+.card-tag {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  float: right;
 }
 
 .card-description {
