@@ -1,14 +1,11 @@
 {
-  "name": "a11y.rocks",
+  "name": "A a11y.rocks Project",
   "version": "1.0.0",
-  "description": "a11y.rocks reports",
-  "main": "index.js",
   "scripts": {
     "start": "npm-run-all -p css jekyll",
     "css": "postcss assets/css/main.css -w true -o _includes/public.css",
     "jekyll": "bundle exec jekyll serve"
   },
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "css-mqpacker": "^6.0.1",
