@@ -1,5 +1,7 @@
 ---
 layout: post
+title:
+date: 2017-10-28 19:51:10 +0200
 sitename: "Vox"
 tag: "Non-perceivable"
 media: https://i.imgur.com/MwzzelZ.jpg
