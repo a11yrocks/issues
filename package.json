@@ -2,8 +2,9 @@
   "name": "a11y-issues",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm-run-all -p css jekyll",
-    "css": "postcss assets/css/main.css -w true -o _includes/public.css",
+    "start": "npm run css && npm-run-all -p css-watch jekyll",
+    "css": "postcss assets/css/main.css -o _includes/public.css",
+    "css-watch": "npm run css -w true",
     "jekyll": "bundle exec jekyll serve"
   },
   "license": "MIT",
