@@ -2,14 +2,16 @@
     <img class="card-media" src="{{ post.media }}" />
     <span class="tag card-tag">{{ post.tag }}</span>
     <div class="card-content">
-        <h1 class="card-title">{{ post.sitename }}</h1>
+        <h1 class="card-title">
+            <u>{{ post.app_name }}</u>: {{post.title }}
+        </h1>
 
         <div class="card-description">
             {{ post.content | strip_html | truncate: 100 }}
         </div>
     </div>
     <a
-      class="read-more-button" 
+      class="read-more-button"
       href="{{ post.url | prepend: site.baseurl }}"
     >
       Read more

@@ -2,7 +2,8 @@
 layout: post
 title:
 date: 2016-05-24 19:51:10 -0300
-sitename: "Netflix"
+app_name: "Netflix"
+app_url: https://netflix.com
 tag: "Non-robust"
 media: https://cdn.dribbble.com/users/61576/screenshots/3242739/attachments/695217/vpn-dashboard-design-caldhela-bigger-version.png
 ---

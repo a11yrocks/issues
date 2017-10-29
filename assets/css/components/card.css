@@ -55,8 +55,13 @@
   margin: 0;
   float: left;
   color: #000;
-  border-bottom: 3px solid #ffd736;
   margin-bottom: 10px;
+}
+
+u {
+  border-bottom: 3px solid #ffd736;
+  text-decoration: none;
+  padding-bottom: 1px;
 }
 
 .tag {
