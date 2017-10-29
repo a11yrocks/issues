@@ -2,10 +2,14 @@
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
-  padding: 70px;
-  position: relative;
+  padding: 35px;
   max-width: 800px;
-  margin: auto;
+  margin: 0 10px;
+
+  @media (min-width: 840px) {
+      margin: auto;
+      padding: 70px;
+  }
 }
 
 .post p {
@@ -18,18 +22,26 @@
 
 
 .post-header {
-    display: flex;
-    align-items: center;
     margin-bottom: 30px;
+    text-align: center;
+
+    @media (min-width: 840px) {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .post-tag {
-    margin-left: 20px;
+    margin-top: 10px;
+
+    @media (min-width: 840px) {
+        margin-left: 20px;
+        margin-top: 0;
+    }
 }
 
 .post-title {
   font-size: 25px;
   font-weight: bold;
   color: #000;
-  border-bottom: 3px solid #ffd736;
 }

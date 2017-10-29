@@ -27,7 +27,7 @@
     margin: 10px;
   }
 
-  @media (min-width: 850px) {
+  @media (min-width: 840px) {
     flex-basis: calc(33.3% - 20px);
   }
 

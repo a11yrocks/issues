@@ -53,6 +53,10 @@ textarea {
   margin: 0;
 }
 
+iframe {
+  max-width: 100%;
+}
+
 img,
 embed,
 object,

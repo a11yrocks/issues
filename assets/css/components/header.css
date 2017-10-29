@@ -1,7 +1,7 @@
 .main-header {
   background: #FED835;
   text-align: center;
-  padding: 45px 0 calc(70px + 45px) 0;
+  padding: 45px 20px calc(70px + 45px) 20px;
   overflow: auto;
 }
 
