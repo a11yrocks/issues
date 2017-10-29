@@ -15,3 +15,6 @@ And check the video bellow.
 <div class="post-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/4L_quDQ_C04" frameborder="0" gesture="media" allowfullscreen></iframe>
 </div>
+
+* Hardware: iPhone 7 (iOS 11.0.3).
+* Software: Safari with VoiceOver enabled.
