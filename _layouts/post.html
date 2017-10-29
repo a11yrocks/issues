@@ -14,7 +14,7 @@ layout: default
     <footer>
         <p>Report: {{ page.title }}</p>
         <p>Website: {{ page.app_name }}</p>
-        <p>URL: {{ page.app_url }}</p>
+        <p>URL: <a href="{{ page.app_url }}" target="_blank" rel="noopener noreferrer">{{ page.app_url }}</a></p>
         <p>Reported on <time datetime="{{ page.date }}s">{{ page.date | date: "%b %-d, %Y" }}</time></p>
     </footer>
 </article>
