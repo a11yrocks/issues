@@ -1,6 +1,9 @@
 <article class="card">
     <img class="card-media" src="{{ post.media }}" />
-    <span class="tag card-tag">{{ post.tag }}</span>
+    <span class="tag card-tag">
+      <span class="card-tag-icon">{% include icons/{{ post.tag | downcase }}.html %}</span>
+      {{ post.tag }}
+    </span>
     <div class="card-content">
         <h1 class="card-title">
             <u>{{ post.app_name }}</u>: {{post.title }}

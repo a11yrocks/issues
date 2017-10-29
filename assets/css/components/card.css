@@ -77,6 +77,8 @@ u {
 }
 
 .card-tag {
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 15px;
   right: 15px;
