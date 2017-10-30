@@ -64,21 +64,7 @@ u {
   padding-bottom: 1px;
 }
 
-.tag {
-  border-radius: 5px;
-  background-color: tomato;
-  color: #fff;
-  padding: 6px 10px;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: -0.1px;
-  display: inline-block;
-  text-transform: uppercase;
-}
-
 .card-tag {
-  display: flex;
-  align-items: center;
   position: absolute;
   top: 15px;
   right: 15px;

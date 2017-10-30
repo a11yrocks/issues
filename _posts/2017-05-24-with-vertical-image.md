@@ -4,7 +4,7 @@ title:
 date: 2017-05-24 19:51:10 -0300
 app_name: "Facebook"
 app_url: https://google.com
-tag: "Non-operable"
+tag: "non-operable"
 media: https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B5ZSepuCX1xOWWhkMl9EY3dTR28/components-text-fields.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

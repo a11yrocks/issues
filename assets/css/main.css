@@ -3,5 +3,6 @@
 @import "base";
 @import "components/header";
 @import "components/card";
+@import "components/tag";
 @import "components/footer";
 @import "components/post";

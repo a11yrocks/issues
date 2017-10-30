@@ -4,7 +4,7 @@ layout: default
 <article class="post">
     <header class="post-header">
         <h1 class="post-title"><u>Acessibility issue on {{ page.app_name }}</u></h1>
-        <span class="tag post-tag">{{ page.tag }}</span>
+        {% include tag.html tag=page.tag classname="post-tag" %}
     </header>
 
     <div class="card-description">

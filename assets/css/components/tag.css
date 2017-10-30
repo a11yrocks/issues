@@ -1,0 +1,12 @@
+.tag {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: tomato;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -0.1px;
+  text-transform: uppercase;
+}
