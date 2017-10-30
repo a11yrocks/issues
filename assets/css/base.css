@@ -15,5 +15,7 @@ body {
   @media (min-width: 640px) {
       display: flex;
       flex-wrap: wrap;
+      max-width: 1600px;
+      margin: auto;
   }
 }
