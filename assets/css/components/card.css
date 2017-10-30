@@ -50,12 +50,33 @@
 }
 
 .card-title {
+  position: relative;
   font-size: 14px;
   font-weight: bold;
   margin: 0;
   float: left;
   color: #000;
   margin-bottom: 10px;
+  width: 100%;
+  height: 24px; /* or calc(16px * 1.5 * 1), meaning font-size = 16px (default) * line-height = 1.5 * amount of lines */
+  overflow: hidden;
+  line-height: 1.5;
+
+  &::after {
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 1.5rem;
+    background: linear-gradient(to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+      80%
+    );
+    content: "";
+    text-align: right;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 u {
