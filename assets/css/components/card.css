@@ -80,7 +80,7 @@
 }
 
 u {
-  border-bottom: 3px solid #ffd736;
+  border-bottom: 3px solid var(--color-border-yellow);
   text-decoration: none;
   padding-bottom: 1px;
 }

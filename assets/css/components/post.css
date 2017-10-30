@@ -12,11 +12,18 @@
   }
 }
 
-.post p {
-  margin-bottom: 25px;
+.post {
+  & p,
+  & ul {
+    margin: 25px 0;
 
-  &:last-child {
-    margin-bottom: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  & ul {
+    list-style: square;
   }
 }
 
@@ -49,7 +56,6 @@
 .post-video {
   position: relative;
   width: 100%;
-  margin: 2.5em 0;
   padding-bottom: 56.25%;
 
   & iframe,
@@ -67,4 +73,5 @@
 
 .post-footer {
   margin-top: 20px;
+  border-top: thin solid var(--color-border-light);
 }
