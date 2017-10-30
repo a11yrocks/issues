@@ -80,7 +80,7 @@
 }
 
 u {
-  border-bottom: 3px solid #ffeb00;
+  border-bottom: 3px solid var(--color-yellow);
   text-decoration: none;
   padding-bottom: 1px;
 }
@@ -110,8 +110,9 @@ u {
   color: #000;
   font-weight: 800;
   text-decoration: none;
+  transition: all 100ms ease-out;
 
   &:hover {
-    background: #ffeb00;
+    background: var(--color-yellow);
   }
 }
