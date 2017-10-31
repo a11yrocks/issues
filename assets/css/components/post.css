@@ -39,7 +39,7 @@
   }
 }
 
-.post-foo {
+.post-meta {
   display: flex;
   align-items: center;
   flex-direction: column;
