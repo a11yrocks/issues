@@ -26,4 +26,15 @@ layout: default
       <li>Reported on <time datetime="{{ page.date }}s">{{ page.date | date: "%b %-d, %Y" }}</time></li>
     </ul>
   </footer>
+
+  <div class="post-share">
+    <a
+      href="https://twitter.com/intent/tweet?text={{ page.title }} {{ site.url }}{{ page.url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="share-twitter"
+    >
+      <u>Share on Twitter</u> {% include icons/twitter.html %}
+    </a>
+  </div>
 </article>

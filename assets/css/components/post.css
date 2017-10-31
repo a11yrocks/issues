@@ -1,4 +1,5 @@
 .post {
+  position: relative;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
@@ -97,4 +98,28 @@
 .post-footer {
   margin-top: 20px;
   border-top: thin solid var(--color-border-light);
+}
+
+.post-share {
+  padding-top: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.share-twitter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+
+  & svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
 }
