@@ -3,15 +3,18 @@ layout: default
 ---
 <article class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      <a href="{{ page.app_url }}" target="_blank" rel="noopener noreferrer">
-        <u>Acessibility issue on {{ page.app_name }}</u>
-      </a>
-    </h1>
-    {% include tag.html tag=page.tag classname="post-tag" %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-foo">
+      <p class="post-subtitle">
+        <a href="{{ page.app_url }}" target="_blank" rel="noopener noreferrer">
+          <u>Acessibility issue on {{ page.app_name }}</u>
+        </a>
+      </p>
+      {% include tag.html tag=page.tag classname="post-tag" %}
+    </div>
   </header>
 
-  <div class="card-description">
+  <div class="post-description">
     {{ page.content }}
   </div>
 
