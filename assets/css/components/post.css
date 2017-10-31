@@ -12,7 +12,8 @@
   }
 }
 
-.post {
+.post-description,
+.post-footer {
   & p,
   & ul {
     margin: 25px 0;
@@ -27,14 +28,24 @@
   }
 }
 
-
 .post-header {
   margin-bottom: 30px;
   text-align: center;
 
   @media (min-width: 840px) {
     display: flex;
-    align-items: center;
+    text-align: left;
+    flex-direction: column;
+  }
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media (min-width: 840px) {
+    flex-direction: row;
   }
 }
 
@@ -49,6 +60,13 @@
 
 .post-title {
   font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.post-subtitle {
+  font-size: 16px;
   font-weight: bold;
   color: #000;
 
