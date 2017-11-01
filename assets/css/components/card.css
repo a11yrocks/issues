@@ -77,6 +77,11 @@
     bottom: 0;
     right: 0;
   }
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 u {
@@ -112,7 +117,8 @@ u {
   text-decoration: none;
   transition: all 100ms ease-out;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background: var(--color-yellow);
   }
 }

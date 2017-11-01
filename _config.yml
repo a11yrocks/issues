@@ -3,9 +3,11 @@ includes_dir: _includes
 
 title: Issues - a11y.rocks
 description: >- # this means to ignore newlines until "baseurl:"
-  EDIT ME!!!
+  How companies break accessibility principles
 baseurl: ""
 url: "https://issues.a11y.rocks"
+github: "https://github.com/a11yrocks/"
+github_repo: "https://github.com/a11yrocks/site"
 markdown: kramdown
 plugins:
   - jekyll-feed

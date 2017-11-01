@@ -1,4 +1,5 @@
 .post {
+  position: relative;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
@@ -12,7 +13,8 @@
   }
 }
 
-.post {
+.post-description,
+.post-footer {
   & p,
   & ul {
     margin: 25px 0;
@@ -27,14 +29,24 @@
   }
 }
 
-
 .post-header {
   margin-bottom: 30px;
   text-align: center;
 
   @media (min-width: 840px) {
     display: flex;
-    align-items: center;
+    text-align: left;
+    flex-direction: column;
+  }
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media (min-width: 840px) {
+    flex-direction: row;
   }
 }
 
@@ -50,7 +62,19 @@
 .post-title {
   font-size: 25px;
   font-weight: bold;
+  margin-bottom: 10px;
   color: #000;
+}
+
+.post-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .post-video {
@@ -74,4 +98,28 @@
 .post-footer {
   margin-top: 20px;
   border-top: thin solid var(--color-border-light);
+}
+
+.post-share {
+  padding-top: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.share-twitter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+
+  & svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
 }
