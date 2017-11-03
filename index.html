@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="cards">
+<div class="cards" aria-label="issues by date, newest first">
   {% for post in site.posts %}
     {% include card.html post=post %}
   {% endfor %}
