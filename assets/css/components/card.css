@@ -121,4 +121,9 @@ u {
   &:focus {
     background: var(--color-yellow);
   }
+
+  &:after {
+    display: inline-block;
+    content: "→";
+  }
 }
