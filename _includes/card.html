@@ -2,18 +2,18 @@
     <img class="card-media" src="{{ post.media }}" alt="" />
     {% include tag.html tag=post.tag classname="card-tag" %}
     <div class="card-content">
-        <h1 class="card-title">
-            <a href="{{ post.app_url }}" target="_blank" rel="noopener noreferrer"><u>{{ post.app_name }}</u></a>: {{ post.title }}
+        <h1 class="card-title" aria-label="{{ post.app_name }}: {{ post.title }}">
+          <a href="{{ post.app_url }}" target="_blank" rel="noopener noreferrer"><u>{{ post.app_name }}</u></a>: {{ post.title }}
         </h1>
 
         <div class="card-description">
-            {{ post.content | strip_html | truncate: 100 }}
+          {{ post.content | strip_html | truncate: 100 }}
         </div>
     </div>
     <a
       class="read-more-button"
       href="{{ post.url | prepend: site.baseurl }}"
     >
-      Read report →
+      Read report
     </a>
 </article>
