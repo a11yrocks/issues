@@ -83,12 +83,6 @@
   }
 }
 
-u {
-  border-bottom: 3px solid var(--color-yellow);
-  text-decoration: none;
-  padding-bottom: 1px;
-}
-
 .card-tag {
   position: absolute;
   top: 15px;
@@ -98,7 +92,6 @@ u {
 
 .card-description {
   margin-top: 10px;
-  clear: both;
 }
 
 .read-more-button {

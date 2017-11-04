@@ -5,6 +5,12 @@ body {
   background: #f9f9f9;
 }
 
+u {
+  border-bottom: 3px solid var(--color-yellow);
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+
 .main-content {
   margin-top: -70px;
 }
