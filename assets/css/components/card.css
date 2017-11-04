@@ -59,7 +59,6 @@
   width: 100%;
   height: 24px; /* or calc(16px * 1.5 * 1), meaning font-size = 16px (default) * line-height = 1.5 * amount of lines */
   overflow: hidden;
-  overflow-x: scroll;
   line-height: 1.5;
 
   &::after {
