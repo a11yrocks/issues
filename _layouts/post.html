@@ -28,15 +28,6 @@ layout: default
   </footer>
 
   <div class="post-share">
-    <a
-      href="https://twitter.com/intent/tweet?text=
-        There's an accessibility issue on {{ page.app_name }}! {{ site.url }}{{ page.url }}
-      "
-      target="_blank"
-      rel="noopener noreferrer"
-      class="share-twitter"
-    >
-      <u>Share on Twitter</u> {% include icons/twitter.html %}
-    </a>
+    {% include twitter.html app_name=page.app_name url=page.url %}
   </div>
 </article>
