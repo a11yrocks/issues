@@ -5,7 +5,7 @@ date: 2017-10-28 19:51:10 +0200
 app_name: "Vox"
 app_url: https://vox.com
 tag: "non-perceivable"
-media: https://i.imgur.com/MwzzelZ.jpg
+media: https://i.imgur.com/IBg1oOr.jpg
 ---
 
 No polite advertisement when using VoiceOver (screams “Play video” a lot of times when the page is loaded).
