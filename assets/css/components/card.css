@@ -22,16 +22,16 @@
     transform: translateY(-2px);
   }
 
-  @media (min-width: 640px) {
+  @media (--medium-up) {
     flex-basis: calc(50% - 20px);
     margin: 10px;
   }
 
-  @media (min-width: 840px) {
+  @media (--large-up) {
     flex-basis: calc(33.3% - 20px);
   }
 
-  @media (min-width: 1200px) {
+  @media (--huge-up) {
     flex-basis: calc(25% - 20px);
   }
 }
