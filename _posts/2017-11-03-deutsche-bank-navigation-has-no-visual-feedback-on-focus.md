@@ -8,6 +8,8 @@ tag: "non-perceivable"
 media: https://i.imgur.com/bqc4X7o.png
 ---
 
-If you try to use Deutsche Bank website navigation using keyboard, you don't get any visual feedback in the focus status.
+Visual feedback for focus status isn't provided while navigating Deutsche Bank using the keyboard.
 
-![The Guardian website navigation](https://i.imgur.com/bqc4X7o.png)
+![Deutsche Bank's website navigation](https://i.imgur.com/bqc4X7o.png)
+
+* Software: Chrome 61

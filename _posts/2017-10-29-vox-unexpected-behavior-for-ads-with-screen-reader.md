@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: Unexpected behavior with screen reader because of ads
 date: 2017-10-28 19:51:10 +0200
 app_name: "Vox"
 app_url: https://vox.com
@@ -8,9 +8,7 @@ tag: "non-perceivable"
 media: https://i.imgur.com/IBg1oOr.jpg
 ---
 
-No polite advertisement when using VoiceOver (screams “Play video” a lot of times when the page is loaded).
-
-Check the video below.
+Navigating Vox using the screen reader has some unexpected behaviors. Due to the advertisements available on the page, “Play video” can be heard from the screen reader a lot of times.
 
 <div class="post-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/OAI75HyiVVQ" frameborder="0" gesture="media" allowfullscreen></iframe>

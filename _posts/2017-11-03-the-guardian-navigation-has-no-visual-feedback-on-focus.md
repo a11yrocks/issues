@@ -8,6 +8,8 @@ tag: "non-perceivable"
 media: https://i.imgur.com/SYVdOrL.png
 ---
 
-If you try to use The Guardian website navigation using keyboard, you don't get any visual feedback in the focus status.
+Visual feedback for focus status isn't provided while navigating The Guardian using the keyboard.
 
-![The Guardian website navigation](https://i.imgur.com/SYVdOrL.png)
+![The Guardian's website navigation](https://i.imgur.com/SYVdOrL.png)
+
+* Software: Chrome 61
