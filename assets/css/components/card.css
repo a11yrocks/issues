@@ -59,12 +59,13 @@
   width: 100%;
   height: 24px; /* or calc(16px * 1.5 * 1), meaning font-size = 16px (default) * line-height = 1.5 * amount of lines */
   overflow: hidden;
+  overflow-x: scroll;
   line-height: 1.5;
 
   &::after {
     display: block;
     position: absolute;
-    width: 20%;
+    width: 50%;
     height: 1.5rem;
     background: linear-gradient(to right,
       rgba(255, 255, 255, 0),
@@ -75,6 +76,10 @@
     text-align: right;
     bottom: 0;
     right: 0;
+
+    @media (--medium-up) {
+      width: 40%;
+    }
   }
 
   & a {
