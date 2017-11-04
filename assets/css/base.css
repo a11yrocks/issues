@@ -11,6 +11,17 @@ u {
   padding-bottom: 1px;
 }
 
+a:not(.special-link) {
+  text-decoration: none;
+  border-bottom: thin dotted darkblue;
+  color: darkblue;
+  transition: all 250ms ease-out;
+
+  &:hover {
+    border-bottom: thin solid darkblue;
+  }
+}
+
 .main-content {
   margin-top: -70px;
 }
