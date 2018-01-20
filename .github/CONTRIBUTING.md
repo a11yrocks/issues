@@ -35,7 +35,7 @@ Here you can add any Markdown-valid content describing the accessibility issue.
 > :warning: Your tag must be one of the following: `"Non-perceivable"`, `"Non-operable"`, `"Non-understandable"`. To know which one to use, refer to the [POUR principles](https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head).
 
 ### Example
-Example of a report of an [accessibility issue on Tinder](https://issues.11y.rocks/report/2017-11-04-tinder-close-button-for-intrusive-modal-isnt-accessible):
+Example of a report of an [accessibility issue on Tinder](https://issues.a11y.rocks/report/2017-11-04-tinder-close-button-for-intrusive-modal-isnt-accessible):
 
 `2017-11-04-tinder-close-button-for-intrusive-modal-isnt-accessible.md`  (Filename)
 

@@ -12,7 +12,7 @@ The web is an increasingly important resource in many aspects of life: education
 **We all benefit from an inclusive web.** An accessible web is flexible to people's conditions, so everyone holds equal access to information and equal opportunity to participate in society.
 
 ## How to contribute
-[Check the contributing guidelines](CONTRIBUTING.md) on how to contribute to this project with improvements or accessibility issues you've found.
+[Check the contribution guidelines](CONTRIBUTING.md) on how to contribute to this project with improvements or accessibility issues you've found.
 
 ## License
 MIT
