@@ -6,7 +6,12 @@
 }
 
 .contribute-on-gh {
-  color: #000;
   text-decoration: none;
   font-weight: bold;
+}
+
+.dark {
+  & .contribute-on-gh, & .main-footer  {
+    color: #fff;
+  }
 }

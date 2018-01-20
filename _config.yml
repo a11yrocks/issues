@@ -1,7 +1,7 @@
 destination: ./_public
 includes_dir: _includes
 
-title: Issues - a11y.rocks
+title: a11y Issues, by a11y.rocks
 description: >- # this means to ignore newlines until "baseurl:"
   How companies break accessibility principles
 baseurl: ""

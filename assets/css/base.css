@@ -3,6 +3,10 @@ body {
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   background: #f9f9f9;
+
+  &.dark {
+    background: #333;
+  }
 }
 
 u {
