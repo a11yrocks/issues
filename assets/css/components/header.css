@@ -10,14 +10,24 @@
   top: 0;
   right: 0;
   padding: 20px;
-  
+
   & a {
     font-weight: bold;
     border: 0;
     text-decoration: none;
-    padding-left: 15px;
+    padding: 0 7px;
     font-size: 14px;
     color: #fff;
+  }
+}
+
+[href="#main-content"] {
+  position: absolute;
+  top: -100%;
+
+  &:focus {
+    position: relative;
+    top: 0;
   }
 }
 
