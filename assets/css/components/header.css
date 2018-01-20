@@ -5,6 +5,22 @@
   padding: 45px 20px calc(70px + 45px);
 }
 
+.main-header-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  
+  & a {
+    font-weight: bold;
+    border: 0;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #fff;
+  }
+}
+
 .main-title {
   font-size: 50px;
   font-weight: 600;
