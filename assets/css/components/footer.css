@@ -1,17 +1,30 @@
 .main-footer {
-  margin: 30px 0;
+  margin: 60px 0;
   width: 100%;
   text-align: center;
   font-size: 14px;
 }
 
-.contribute-on-gh {
-  text-decoration: none;
+.main-footer-disclaimer {
+  margin: 10px 0;
+}
+
+.main-footer-links {
+  & li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+.main-footer-link {
+  font-size: 16px;
   font-weight: bold;
+  text-decoration: none;
+  color: #000;
 }
 
 .dark {
-  & .contribute-on-gh, & .main-footer  {
+  & .main-footer-link, & .main-footer  {
     color: #fff;
   }
 }
