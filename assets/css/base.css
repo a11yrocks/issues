@@ -5,7 +5,7 @@ body {
   background: #f9f9f9;
 
   &.dark {
-    background: #333;
+    background: #222;
   }
 }
 
