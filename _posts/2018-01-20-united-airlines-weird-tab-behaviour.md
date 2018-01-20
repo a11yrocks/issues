@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Not accessible options"
+title: "Non accessible options"
 date: 2018-01-20 00:30:10 +0200
 app_name: "United Airlines"
 app_url: https://www.united.com/ual/en/us/
