@@ -24,10 +24,14 @@
 [href="#main-content"] {
   position: absolute;
   top: -100%;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
 
   &:focus {
-    position: relative;
-    top: 0;
+    top: 5px;
+    left: 5px;
   }
 }
 
