@@ -5,7 +5,7 @@ date: 2017-10-28 19:51:10 +0200
 app_name: "CNN"
 app_url: https://cnn.com
 tag: "non-perceivable"
-media: https://i.imgur.com/aBrHqeH.jpg
+media: /assets/img/2017-10-29-cnn-non-accessible-sharing-options.jpg
 ---
 
 CNN uses a third-party share utility. When using VoiceOver, is impossible for the user to know which share option is selected, since the only thing VoiceOver reads is "Table start", due the poor HTML semantic from the third-party widget. [Check the HTML markup](https://gist.github.com/AgtLucas/a3295896ea6604886ab7e4807f3c95e3).
