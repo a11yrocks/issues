@@ -5,11 +5,11 @@ date: 2017-11-04 20:30:10 +0200
 app_name: "Giphy"
 app_url: https://giphy.com/
 tag: "non-perceivable"
-media: https://i.imgur.com/yq2tq48.png
+media: /assets/img/2017-11-04-giphy-no-focus-states.png
 ---
 
 No focus states are provided for buttons and links in general.
 
-![Giphy's website](https://i.imgur.com/yq2tq48.png)
+![Giphy's website](/assets/img/2017-11-04-giphy-no-focus-states.png)
 
 * Software: Chrome 61

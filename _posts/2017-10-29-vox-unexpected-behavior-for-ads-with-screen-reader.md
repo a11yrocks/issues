@@ -5,7 +5,7 @@ date: 2017-10-28 19:51:10 +0200
 app_name: "Vox"
 app_url: https://vox.com
 tag: "non-perceivable"
-media: https://i.imgur.com/IBg1oOr.jpg
+media: /assets/img/2017-10-29-vox-unexpected-behavior-for-ads-with-screen-reader.jpg
 ---
 
 Navigating Vox using the screen reader has some unexpected behaviors. Due to the advertisements available on the page, “Play video” can be heard from the screen reader a lot of times.
