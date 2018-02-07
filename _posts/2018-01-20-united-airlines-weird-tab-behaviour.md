@@ -5,7 +5,7 @@ date: 2018-01-20 00:30:10 +0200
 app_name: "United Airlines"
 app_url: https://www.united.com/ual/en/us/
 tag: "non-perceivable"
-media: https://i.imgur.com/Pp6pTVg.gif
+media: /assets/img/2018-01-20-united-airlines-weird-tab-behaviour.gif
 ---
 
 > Updated on February 2nd, 2018
@@ -16,6 +16,6 @@ Also, since it suppresses tab navigation, users are only able to use arrow keys 
 
 On Safari, you can only access the "Flight" option.
 
-![Gif showing how the "Book Travel" section on United Airlines behaves](https://i.imgur.com/Pp6pTVg.gif)
+![Gif showing how the "Book Travel" section on United Airlines behaves](/assets/img/2018-01-20-united-airlines-weird-tab-behaviour.gif)
 
 * Software: Chrome 63, Firefox 57.0.4, Safari 11.0.1
