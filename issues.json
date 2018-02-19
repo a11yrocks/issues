@@ -1,7 +1,6 @@
 ---
 layout: nil
 ---
-
 [
   {% for post in site.posts %}
     {
@@ -12,6 +11,6 @@ layout: nil
       "title": "{{ post.title }}",
       "tag": "{{ post.tag }}",
       "media": "{{ post.media }}"
-    }
+    }{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
 ]
