@@ -10,7 +10,7 @@ layout: nil
       "app_url": "{{ post.app_url }}",
       "title": "{{ post.title }}",
       "tag": "{{ post.tag }}",
-      "media": "{{ post.media }}"
+      "media": "https://issues.a11y.rocks{{ post.media }}"
     }{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
 ]
