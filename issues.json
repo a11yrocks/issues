@@ -1,0 +1,17 @@
+---
+layout: nil
+---
+
+[
+  {% for post in site.posts %}
+    {
+      "title": "{{ post.title }}",
+      "date": "{{ post.date }}",
+      "app_name": "{{ post.app_name }}",
+      "app_url": "{{ post.app_url }}",
+      "title": "{{ post.title }}",
+      "tag": "{{ post.tag }}",
+      "media": "{{ post.media }}"
+    }
+  {% endfor %}
+]
