@@ -5,7 +5,6 @@ date: 2017-11-03 19:51:10 +0200
 app_name: "The Guardian"
 app_url: https://www.theguardian.com/international
 principle: "operable"
-tag: "non-perceivable"
 media: /assets/img/2017-11-03-the-guardian-navigation-has-no-visual-feedback-on-focus.png
 ---
 

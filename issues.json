@@ -12,7 +12,6 @@ layout: nil
       "app_url": "{{ post.app_url }}",
       "title": "{{ post.title }}",
       "principle": "{{ post.principle }}",
-      "tag": "{{ post.tag }}",
       "media": "{{ site_url }}{{ post.media }}"
     }{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}

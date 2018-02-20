@@ -5,7 +5,6 @@ date: 2017-11-03 21:06:10 +0200
 app_name: "Codecademy"
 app_url: https://www.codecademy.com
 principle: "perceivable"
-tag: "non-perceivable"
 media: /assets/img/2017-11-04-codecademy-outline-button-has-insufficient-colour-contrast.png
 ---
 

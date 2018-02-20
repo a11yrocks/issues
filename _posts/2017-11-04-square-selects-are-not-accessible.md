@@ -5,7 +5,6 @@ date: 2017-11-04 20:30:10 +0200
 app_name: "Square"
 app_url: https://square.com/
 principle: "operable"
-tag: "non-operable"
 media: /assets/img/2017-11-04-square-selects-are-not-accessible.png
 ---
 

@@ -5,7 +5,6 @@ date: 2017-11-04 20:30:10 +0200
 app_name: "Twilio"
 app_url: https://www.twilio.com
 principle: "operable"
-tag: "non-understandable"
 media: /assets/img/2017-11-04-twilio-no-tooltip-or-titles-provided-for-icons.gif
 ---
 

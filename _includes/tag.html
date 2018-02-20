@@ -1,4 +1,5 @@
 <span class="tag {{ include.classname }}">
-  <span class="tag-icon">{% include icons/{{ include.tag }}.html %}</span>
-  {{ include.tag }}
+  {% assign tag = include.principle | prepend: "non-"  %}
+  <span class="tag-icon">{% include icons/{{ tag }}.html %}</span>
+  {{ tag }}
 </span>

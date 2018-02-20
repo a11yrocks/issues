@@ -5,7 +5,6 @@ date: 2017-11-05 00:30:10 +0200
 app_name: "Foodora"
 app_url: https://www.foodora.de/en/
 principle: "operable"
-tag: "non-perceivable"
 media: /assets/img/2017-11-05-foodora-non-accessible-city-section-selector.png
 ---
 

@@ -5,7 +5,6 @@ date: 2017-10-28 19:51:10 +0200
 app_name: "CNN"
 app_url: https://cnn.com
 principle: "perceivable"
-tag: "non-perceivable"
 media: /assets/img/2017-10-29-cnn-non-accessible-sharing-options.jpg
 ---
 
