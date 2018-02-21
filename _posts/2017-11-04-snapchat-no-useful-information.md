@@ -4,7 +4,7 @@ title: "No useful information"
 date: 2017-11-04 20:30:10 +0200
 app_name: "Snapchat"
 app_url: https://snapchat.com/
-tag: "non-understandable"
+principle: "perceivable"
 media: /assets/img/2017-11-04-snapchat-no-useful-information.png
 ---
 

@@ -4,7 +4,7 @@ title: "Impossible to navigate with keyboard"
 date: 2017-11-04 18:00:10 +0200
 app_name: "Tesla"
 app_url: https://tesla.com/
-tag: "non-perceivable"
+principle: "operable"
 media: /assets/img/2017-11-04-tesla-impossible-to-navigate-with-keyboard.png
 ---
 

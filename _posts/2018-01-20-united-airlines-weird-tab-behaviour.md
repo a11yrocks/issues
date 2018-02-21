@@ -4,7 +4,7 @@ title: "Confusing and unexpected navigation in tab component"
 date: 2018-01-20 00:30:10 +0200
 app_name: "United Airlines"
 app_url: https://www.united.com/ual/en/us/
-tag: "non-perceivable"
+principle: "understandable"
 media: /assets/img/2018-01-20-united-airlines-weird-tab-behaviour.gif
 ---
 

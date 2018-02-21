@@ -1,6 +1,6 @@
 <article class="card">
     <img class="card-media" src="{{ post.media }}" alt="" />
-    {% include tag.html tag=post.tag classname="card-tag" %}
+    {% include tag.html principle=post.principle classname="card-tag" %}
     <div class="card-content">
         <h1 class="card-title" aria-label="{{ post.app_name }}: {{ post.title }}">
           <a class="special-link" href="{{ post.app_url }}" target="_blank" rel="noopener noreferrer"><u>{{ post.app_name }}</u></a>: {{ post.title }}

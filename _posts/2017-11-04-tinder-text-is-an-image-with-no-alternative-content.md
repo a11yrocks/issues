@@ -4,7 +4,7 @@ title: "Text is an image with no alternative content"
 date: 2017-11-04 18:25:10 +0200
 app_name: "Tinder"
 app_url: https://tinder.com
-tag: "non-perceivable"
+principle: "perceivable"
 media: /assets/img/2017-11-04-tinder-text-is-an-image-with-no-alternative-content.png
 ---
 

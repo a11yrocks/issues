@@ -4,7 +4,7 @@ title: "Menu is inaccessible"
 date: 2017-11-04 18:25:10 +0200
 app_name: "Tinder"
 app_url: https://tinder.com
-tag: "non-operable"
+principle: "operable"
 media: /assets/img/2017-11-04-tinder-close-button-for-intrusive-modal-isnt-accessible.gif
 ---
 

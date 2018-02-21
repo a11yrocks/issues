@@ -4,7 +4,7 @@ title: Unexpected behavior with screen reader because of ads
 date: 2017-10-28 19:51:10 +0200
 app_name: "Vox"
 app_url: https://vox.com
-tag: "non-perceivable"
+principle: "perceivable"
 media: /assets/img/2017-10-29-vox-unexpected-behavior-for-ads-with-screen-reader.jpg
 ---
 

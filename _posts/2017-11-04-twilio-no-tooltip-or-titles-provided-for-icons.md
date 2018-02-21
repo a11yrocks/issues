@@ -4,7 +4,7 @@ title: "No tooltip or titles provided for icons"
 date: 2017-11-04 20:30:10 +0200
 app_name: "Twilio"
 app_url: https://www.twilio.com
-tag: "non-understandable"
+principle: "operable"
 media: /assets/img/2017-11-04-twilio-no-tooltip-or-titles-provided-for-icons.gif
 ---
 

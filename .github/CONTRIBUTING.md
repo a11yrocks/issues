@@ -4,7 +4,7 @@ Want to contribute to Issues? Awesome! We're open to all sort of contributions: 
 ## Get ready!
 1. Fork the project on GitHub.
 2. Install npm dependencies by running `npm install` and make sure you have Ruby and Jekyll installed (see [installation guide for Jekyll](https://jekyllrb.com/docs/installation/)).
-3. Commit your changes in a feature Git branch. 
+3. Commit your changes in a feature Git branch.
 4. Submit a pull request on GitHub.
 
 ## Report an accessibility issue
@@ -24,9 +24,9 @@ Use the following template, if possible:
 layout: post
 title:
 date: 2016-05-24 19:51:10
-sitename: 'Website where you found the issue'
-tag: "Non-perceivable"
-media: my-image-for-the-issue
+app_name: 'Website where you found the issue'
+principle: "perceivable"
+media: my-image-for-the-issue (make sure to place it on `/assets/img` and use the same name as the post filename)
 ---
 
 Here you can add any Markdown-valid content describing the accessibility issue.
@@ -60,4 +60,3 @@ Tinder opens a modal for signing up right at the beginning of the browsing exper
 See other [existing issues](https://issues.a11y.rocks/) for more examples.
 
 All contributions are welcome. **Thank you!**
-

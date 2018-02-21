@@ -4,7 +4,7 @@ title: "Tabs not accessible"
 date: 2017-11-04 20:30:10 +0200
 app_name: "Codecademy"
 app_url: https://www.codecademy.com
-tag: "non-operable"
+principle: "operable"
 media: /assets/img/2017-11-04-codecademy-tabs-not-accessible.png
 ---
 
