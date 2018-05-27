@@ -8,8 +8,9 @@ principle: "operable"
 media: /assets/img/2018-05-27-toyota-com-no-focus-states.png
 ---
 
-No focus states are provided for buttons and links in general. Also exhibited strange behavior on Firefox.
+No focus states are provided for buttons and links in general. 
+Also exhibited weird behavior on Firefox, since it is impossible to go through those links with keyboard.
 
 ![Toyotas's Website](/assets/img/2018-05-27-toyota-com-no-focus-states.png)
 
-* Software: Firefox 61, Chrome 66
+* Browser: Firefox 61 and Chrome 66
